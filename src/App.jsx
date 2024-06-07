@@ -8,7 +8,7 @@ import { Outlet } from "react-router";
 function App() {
   return (
     <>
-      <main className="">
+      <main className="dark:bg-black">
         <Header />
         <Outlet />
         <Footer />
